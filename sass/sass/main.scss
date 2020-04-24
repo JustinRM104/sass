@@ -1,0 +1,32 @@
+@import 'variables';
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: $maincolor;
+}
+header{
+    background-color: $donkerder;
+}
+main{
+
+    background-color: $lichter;
+    section{
+        background-color: white;
+        padding: 1em;
+    }
+}
+aside{
+    padding: .5em;
+    ul{
+        list-style: none;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+        &:hover{
+            color: white;
+            text-decoration: underline;
+        }
+    }
+
+}
